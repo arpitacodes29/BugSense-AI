@@ -1,0 +1,12 @@
+{
+    "model": "Advanced SVM",
+    "similarity_threshold": 0.9,
+    "original_test_samples": 17591,
+    "excluded_near_duplicates": 274,
+    "clean_test_samples": 17317,
+    "accuracy": 0.7750187676849338,
+    "macro_precision": 0.3813630039981106,
+    "macro_recall": 0.38496291449150793,
+    "macro_f1": 0.38259034622640536,
+    "weighted_f1": 0.7762897373952407
+}

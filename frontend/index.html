@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>BugSense AI | Bug Analysis Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+
+  <header class="header">
+    <div class="brand">
+      <div class="logo">🐞</div>
+      <div>
+        <h1>BugSense</h1>
+        <p>Automatic bug detection & classification
+          for full-stack applications</p>
+      </div>
+    </div>
+
+    <div class="model-badge">
+      Advanced SVM · Static Analysis · Log Analysis
+    </div>
+  </header>
+
+  <section class="pipeline">
+    <div class="step">
+      <strong>1 · Ingest</strong>
+      <span>Reports, code, logs</span>
+    </div>
+    <div class="step">
+      <strong>2 · Preprocess</strong>
+      <span>Clean & tokenize</span>
+    </div>
+    <div class="step">
+      <strong>3 · Features</strong>
+      <span>TF-IDF · code metrics</span>
+    </div>
+    <div class="step">
+      <strong>4 · Analyze</strong>
+      <span>Advanced SVM · Static rules</span>
+    </div>
+    <div class="step">
+      <strong>5 · Results</strong>
+      <span>Severity · Category · Issues</span>
+    </div>
+  </section>
+
+  <main class="dashboard">
+
+    <section class="panel input-panel">
+      <h2>INPUT</h2>
+
+      <div class="tabs">
+        <button class="tab active"
+                data-type="bug_report">
+          Bug report
+        </button>
+        <button class="tab"
+                data-type="source_code">
+          Source code
+        </button>
+        <button class="tab"
+                data-type="error_log">
+          Error log
+        </button>
+      </div>
+
+      <label class="sr-only" for="bugInput">
+        Analysis input
+      </label>
+
+      <textarea id="bugInput"
+        placeholder="Describe the software bug..."
+        spellcheck="false"></textarea>
+
+      <div class="actions">
+        <button id="analyzeBtn" class="primary">
+          Analyze
+        </button>
+        <button id="sampleBtn" class="secondary">
+          Load sample
+        </button>
+        <button id="clearBtn" class="secondary">
+          Clear
+        </button>
+      </div>
+
+      <p id="inputHint" class="hint">
+        Bug report severity prediction is available.
+      </p>
+    </section>
+
+    <section class="panel result-panel">
+      <h2>ANALYSIS RESULT</h2>
+
+      <div id="resultContent" class="result-empty">
+         Paste an input or load a sample, then press Analyze.
+      </div>
+    </section>
+
+  </main>
+
+  <section class="panel history-panel">
+    <div class="history-heading">
+      <h2>RECENT ANALYSES</h2>
+      <button id="clearHistoryBtn"
+              class="secondary small">
+        Clear history
+      </button>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Source</th>
+            <th>Class</th>
+            <th>Severity</th>
+            <th>Priority</th>
+            <th>Model</th>
+          </tr>
+        </thead>
+        <tbody id="historyBody">
+          <tr>
+            <td colspan="6">No analyses yet.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    BugSense AI · Machine Learning-Based
+    Software Bug Analysis
+  </footer>
+
+</div>
+
+</body>
+</html>

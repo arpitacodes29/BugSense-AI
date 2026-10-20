@@ -1,0 +1,40 @@
+{
+  "selected_model": "SVM",
+  "classes": [
+    "blocker",
+    "critical",
+    "major",
+    "minor",
+    "normal",
+    "trivial"
+  ],
+  "results": [
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.4966,
+      "Precision": 0.3091,
+      "Recall": 0.432,
+      "Macro F1": 0.3143,
+      "Weighted F1": 0.5767,
+      "Time (s)": 0.93
+    },
+    {
+      "Model": "SVM",
+      "Accuracy": 0.7297,
+      "Precision": 0.3415,
+      "Recall": 0.4032,
+      "Macro F1": 0.3644,
+      "Weighted F1": 0.7489,
+      "Time (s)": 1.93
+    },
+    {
+      "Model": "XGBoost",
+      "Accuracy": 0.8466,
+      "Precision": 0.7242,
+      "Recall": 0.3122,
+      "Macro F1": 0.335,
+      "Weighted F1": 0.7949,
+      "Time (s)": 56.58
+    }
+  ]
+}

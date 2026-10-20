@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,Macro F1,Weighted F1,Time (s)
+Random Forest,0.4966,0.3091,0.432,0.3143,0.5767,0.93
+SVM,0.7297,0.3415,0.4032,0.3644,0.7489,1.93
+XGBoost,0.8466,0.7242,0.3122,0.335,0.7949,56.58

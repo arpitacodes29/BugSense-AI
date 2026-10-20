@@ -1,0 +1,13 @@
+{
+    "best_configuration": {
+        "name": "SVM Balanced C0.5",
+        "max_features": 20000,
+        "ngram_range": [
+            1,
+            2
+        ],
+        "C": 0.5,
+        "class_weight": "balanced"
+    },
+    "validation_macro_f1": 0.38211899986639586
+}

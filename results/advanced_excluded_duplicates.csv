@@ -1,0 +1,275 @@
+Project,bug_id,severity,Resolution Status,description,cleaned_text,max_train_similarity
+Core,582255,critical,FIXED,Crash during the load of a WebGL demo [@ ig4dev32.dll@0x6158 ],crash during the load of a webgl demo ig4dev32.dll 0x6158,0.9863332509994507
+Core,390626,critical,FIXED,Crash due to too much recursion in XPCWrappedNative::GetWrappedNativeOfJSObject,crash due to too much recursion in xpcwrappednative getwrappednativeofjsobject,0.9647466540336609
+Firefox,596087,normal,FIXED,update shipped locales for Firefox 4 Beta 6 (fx4b6),update shipped locales for firefox 4 beta 6 fx4b6,0.9534658193588257
+Core,610601,critical,FIXED,Firefox crash on image with src set to a resource with multipart/x-mixed-replace content type [Access Violation],firefox crash on image with src set to a resource with multipart/x-mixed-replace content type access violation,0.9030733108520508
+Platform,301595,normal,FIXED,[breakpoints view] Breakpoints disappear when hiding view in DSF debug session,breakpoints view breakpoints disappear when hiding view in dsf debug session,0.9303258657455444
+Core,684599,critical,FIXED,crash nsDeviceMotion::DeviceMotionChanged,crash nsdevicemotion devicemotionchanged,0.906708300113678
+Core,774755,normal,FIXED,Update ANGLE to r1226,update angle to r1226,0.9690209627151489
+Core,523079,normal,FIXED,Update NSPR to the NSPR_HEAD_20091019 CVS tag,update nspr to the nspr_head_20091019 cvs tag,0.9503923654556274
+Platform,122680,normal,FIXED,Should cast to IStructuredSelection instead of StructuredSelection,should cast to istructuredselection instead of structuredselection,0.9698622822761536
+Platform,309011,normal,FIXED,Translation Question - WSW36#089,translation question - wsw36 089,0.9999998211860657
+Thunderbird,341583,normal,FIXED,Bump Thunderbird version to 1.5.0.5,bump thunderbird version to 1.5.0.5,0.970111072063446
+Platform,297494,normal,FIXED,declare 3.6M4,declare 3.6m4,1.0
+Thunderbird,683178,normal,FIXED,Port bug 673556 to comm-central,port bug 673556 to comm-central,0.9183195233345032
+Platform,191771,normal,FIXED,[Databinding] Realm documentation is wrong,databinding realm documentation is wrong,0.9483965635299683
+Core,682506,normal,FIXED,Upgrade ANGLE to r739,upgrade angle to r739,0.9999998807907104
+Platform,196672,normal,FIXED,[Intro] SWT Welcome RSS Feed doesn't Work,intro swt welcome rss feed doesn t work,0.9071105718612671
+Bugzilla,786355,blocker,FIXED,Release notes for Bugzilla 3.6.11,release notes for bugzilla 3.6.11,1.0
+Core,655990,critical,FIXED,"TI: Assertion failure: !fe->isNotType(JSVAL_TYPE_DOUBLE), at methodjit/FrameState.cpp:715",ti assertion failure fe- isnottype jsval_type_double at methodjit/framestate.cpp 715,0.9457116723060608
+Firefox,806725,normal,FIXED,Port test_localStorageBasePrivateBrowsing.html to the new per-tab PB APIs,port test_localstoragebaseprivatebrowsing.html to the new per-tab pb apis,0.9335750341415405
+Core,643552,critical,FIXED,"TI: Assertion failure: (strBits >> JSVAL_TAG_SHIFT) == 0, at ../jsval.h:625",ti assertion failure strbits jsval_tag_shift 0 at ../jsval.h 625,1.0
+Platform,251257,normal,FIXED,"[Commands] IAction.setImageDescriptor() javadoc needs to note ""image vs. checked"" platform discrepancy",commands iaction.setimagedescriptor javadoc needs to note image vs. checked platform discrepancy,0.9551944732666016
+Firefox,459197,normal,FIXED,[meta] Ts and Tp regressions by enabling Places Fsync stuff,meta ts and tp regressions by enabling places fsync stuff,0.9511984586715698
+Core,506774,normal,FIXED,update in-tree v8 benchmark to v5,update in-tree v8 benchmark to v5,0.9999998807907104
+Core,669061,normal,FIXED,Upgrade Mozilla to NSS 3.13,upgrade mozilla to nss 3.13,0.9157894253730774
+Core,778424,critical,FIXED,Frequent test_bug428988.html crash [@ SetParentToWindow] (Assertion failure: win->IsClosedOrClosing()),frequent test_bug428988.html crash setparenttowindow assertion failure win- isclosedorclosing,0.9825191497802734
+Core,690735,normal,FIXED,Upgrade ANGLE to r774,upgrade angle to r774,0.9999998807907104
+Platform,324100,normal,FIXED,Top index not maintained properly in variables / registers view,top index not maintained properly in variables / registers view,0.9844128489494324
+Core,405894,normal,FIXED,[Cairo][Mac PPC] bad page scrolling performance with large background images,cairo mac ppc bad page scrolling performance with large background images,0.9151778221130371
+Core,487005,critical,FIXED,"""Assertion failure: JS_PROPERTY_CACHE(cx).disabled == fp->pcDisabledSave"" on ebay search",assertion failure js_property_cache cx .disabled fp- pcdisabledsave on ebay search,0.9196915030479431
+Core,378692,critical,FIXED,warning C4099: 'OnLinkClickEvent' : type name first seen using 'struct' now seen using 'class',warning c4099 onlinkclickevent type name first seen using struct now seen using class,0.9061160683631897
+Platform,290212,normal,FIXED,Controls with null background inside Group or TabFolder do not display correctly in Cocoa,controls with null background inside group or tabfolder do not display correctly in cocoa,0.9569908380508423
+Bugzilla,713346,blocker,FIXED,Release notes for Bugzilla 4.2rc1,release notes for bugzilla 4.2rc1,0.9207651615142822
+Platform,229022,major,FIXED,Display#getShells returns disposed shell,display getshells returns disposed shell,0.9036869406700134
+Core,595100,normal,FIXED,Intermittent test_bug369306.html | Test timed out.,intermittent test_bug369306.html test timed out.,0.9045563340187073
+Bugzilla,361119,blocker,FIXED,"Update ""Download"" Page for Bugzilla 2.22.2 and 2.23.4",update download page for bugzilla 2.22.2 and 2.23.4,0.9019195437431335
+Bugzilla,547465,blocker,FIXED,Release Bugzilla 3.6rc1,release bugzilla 3.6rc1,0.9815255999565125
+Core,727601,normal,FIXED,"""ASSERTION: Only transformed frames should have UpdateTransformLayer hint"" with display:table",assertion only transformed frames should have updatetransformlayer hint with display table,0.9043700098991394
+Platform,300086,normal,FIXED,[efs] FileSystemResourceManager makes second call to efs provider on exception due to cancel,efs filesystemresourcemanager makes second call to efs provider on exception due to cancel,0.9472900032997131
+Core,769379,normal,FIXED,implement the value sanitizing algorithm for <input type=date>,implement the value sanitizing algorithm for input type date,0.9124380946159363
+Core,595911,critical,FIXED,"TM: ""Assertion failure: INT_FITS_IN_JSID(i),""",tm assertion failure int_fits_in_jsid i,0.9397284388542175
+Core,602389,normal,FIXED,nanojit: make Register a non-numeric type on MIPS,nanojit make register a non-numeric type on mips,0.9348248243331909
+Core,474868,normal,FIXED,Implement display of .indeterminate property on Mac,implement display of .indeterminate property on mac,0.9159086346626282
+Core,539882,normal,FIXED,[HTML5] content/html/document/test/test_bug324378.html fails,html5 content/html/document/test/test_bug324378.html fails,0.9335456490516663
+Core,411835,critical,FIXED,"Crash [@ GetChildListNameFor] with -moz-column, position:absolute",crash getchildlistnamefor with -moz-column position absolute,0.9438229203224182
+Core,382355,major,FIXED,http://test.bclary.com/tests/mozilla.org/js/js-test-driver-standards.html?test=js1_5/Regress/regress-356693.js  - Assertion failure: cg->stackDepth >=0,- assertion failure cg- stackdepth 0,0.978893518447876
+Core,597030,normal,FIXED,Add .il to IDN whitelist,add .il to idn whitelist,0.9231441617012024
+Core,796827,normal,FIXED,[b2g-bluetooth] Destroy BluetoothHfpManager instance while in shutdown,b2g-bluetooth destroy bluetoothhfpmanager instance while in shutdown,0.970781147480011
+Firefox,660175,normal,FIXED,[Meta] Panorama bugs for Fx7,meta panorama bugs for fx7,0.9999998211860657
+Core,472212,critical,FIXED,"Crash [@ nsContentUtils::ComparePosition] with binding, part 2",crash nscontentutils compareposition with binding part 2,0.9182209372520447
+Core,399960,critical,FIXED,"""Assertion failure: !JS_IsExceptionPending(cx)"" with |new Option|",assertion failure js_isexceptionpending cx with new option,0.9474815726280212
+Core,530360,minor,FIXED,Replace PR_MIN/PR_MAX with NS_MIN/NS_MAX in /accessible,replace pr_min/pr_max with ns_min/ns_max in /accessible,0.9557148218154907
+Thunderbird,477967,normal,FIXED,"inline forwarded messages show too much html composition chrome, redux",inline forwarded messages show too much html composition chrome redux,0.9554821848869324
+Core,732429,normal,FIXED,Move some code from nsSVGOuterSVGFrame::Paint to nsDisplaySVG::Paint,move some code from nssvgoutersvgframe paint to nsdisplaysvg paint,0.9145934581756592
+JDT,252141,normal,FIXED,Compile warning in official build,compile warning in official build,0.9136474132537842
+Core,580712,critical,FIXED,"JM: Crash [@ js::DefaultValue] or ""Assertion failure: &obj != NULL,""",jm crash js defaultvalue or assertion failure obj null,0.9167035818099976
+Core,696844,normal,FIXED,Upgrade WebGL conformance test suite to r15892,upgrade webgl conformance test suite to r15892,1.0
+Core,751129,normal,FIXED,"""ASSERTION: Whoever was caching this font group should have called UpdateFontList on it"", take 2",assertion whoever was caching this font group should have called updatefontlist on it take 2,0.9563047289848328
+Core,496134,normal,FIXED,Function in destructured assignment can't see up to other variables in the assignment,function in destructured assignment can t see up to other variables in the assignment,0.9351911544799805
+Core,693928,normal,FIXED,Intermittent jsreftest.html?test=js1_5/extensions/regress-347306-02.js | application timed out after 330 seconds with no output,intermittent jsreftest.html test js1_5/extensions/regress-347306-02.js application timed out after 330 seconds with no output,0.9827446341514587
+JDT,319559,normal,FIXED,Translation Question - WSW36#419,translation question - wsw36 419,0.9861957430839539
+Core,475393,normal,FIXED,Standalone Spidermonkey should build on Solaris with GCC,standalone spidermonkey should build on solaris with gcc,0.9090962409973145
+Thunderbird,641455,normal,FIXED,Bugs found during testing of Thunderbird 3.3 Alpha 3 release candidates - (3.3a3),bugs found during testing of thunderbird 3.3 alpha 3 release candidates - 3.3a3,0.9664825797080994
+Platform,265289,normal,FIXED,Javadoc warning in N200902172000,javadoc warning in n200902172000,0.925131618976593
+Platform,288364,normal,FIXED,[KeyBindings] Exporting key preferences to CSV does not warn of overwriting file,keybindings exporting key preferences to csv does not warn of overwriting file,0.9070503115653992
+Core,786004,normal,FIXED,IonMonkey: (ARM) ensure that there is an IonContext when discarding Ion code,ionmonkey arm ensure that there is an ioncontext when discarding ion code,0.970797598361969
+CDT,323466,normal,FIXED,Can not use dynamic variables in DSF/GDB command,can not use dynamic variables in dsf/gdb command,0.9104173183441162
+Core,791197,normal,FIXED,[b2g-bluetooth] BluetoothHfpManager prototype,b2g-bluetooth bluetoothhfpmanager prototype,0.9818134903907776
+Core,678090,critical,FIXED,"Assertion failure: spoff == js_ReconstructStackDepth(cx_, fp_->script(), pc_), at vm/Stack.cpp:1012",assertion failure spoff js_reconstructstackdepth cx_ fp_- script pc_ at vm/stack.cpp 1012,0.9176990985870361
+Firefox,671460,normal,FIXED,clean up browser_tabview_bug599626.js,clean up browser_tabview_bug599626.js,0.9539158344268799
+Core,615530,normal,FIXED,Update .bt entry in PSL,update .bt entry in psl,0.9181841015815735
+Core,797185,major,FIXED,IonMonkey: Differential Testing: Getting different output w/without --ion-eager with toSource,ionmonkey differential testing getting different output w/without --ion-eager with tosource,0.9247061014175415
+Core,530384,minor,FIXED,Replace PR_MIN/PR_MAX with NS_MIN/NS_MAX in security/manager,replace pr_min/pr_max with ns_min/ns_max in security/manager,0.9173999428749084
+Core,504705,normal,FIXED,TM/nanojit: use NULL as the condition for unconditional guards,tm/nanojit use null as the condition for unconditional guards,0.9450814127922058
+Platform,338055,normal,FIXED,NatureManager.isNatureEnabled() gives invalid result when called after project import.,naturemanager.isnatureenabled gives invalid result when called after project import.,0.9409807324409485
+Firefox,467582,normal,FIXED,Forecastfox addon not available/working for Firefox 3.1,forecastfox addon not available/working for firefox 3.1,0.9689566493034363
+Core,376395,normal,FIXED,"New version of JEP (0.9.6.1), please land on trunk and branches",new version of jep 0.9.6.1 please land on trunk and branches,0.9604145884513855
+Platform,218945,minor,FIXED,'Export...' and 'Exit' menu items under the 'File' menu share the same mnemonic,export... and exit menu items under the file menu share the same mnemonic,0.9326080679893494
+Core,708805,critical,FIXED,"Assertion failure: static_cast<Cell *>(thing)->isMarked(), at jsgc.cpp:3529",assertion failure static_cast cell thing - ismarked at jsgc.cpp 3529,1.0
+Platform,274409,normal,FIXED,tag projects changed since I20090421-0930 build - swt,tag projects changed since i20090421-0930 build - swt,0.9472482204437256
+Core,602387,normal,FIXED,nanojit: make Register a non-numeric type on PPC,nanojit make register a non-numeric type on ppc,0.9346433877944946
+Platform,198519,normal,FIXED,[DataBinding] JavaBeanObservableValue may cause NPE when used with ComputedValue,databinding javabeanobservablevalue may cause npe when used with computedvalue,0.9251590967178345
+Core,681006,critical,FIXED,"TI: Assertion failure: !fe->data.inRegister(), at methodjit/FrameState-inl.h:966",ti assertion failure fe- data.inregister at methodjit/framestate-inl.h 966,0.9999998807907104
+Firefox,806706,normal,FIXED,Port browser_save_link.js to the new per-window PB APIs,port browser_save_link.js to the new per-window pb apis,0.9332767724990845
+Core,655473,normal,FIXED,Remove WinCE code from IPC,remove wince code from ipc,0.9564558863639832
+Platform,302374,normal,FIXED,Compile warnings in official build I20100209-1600,compile warnings in official build i20100209-1600,0.9042877554893494
+Core,591163,normal,FIXED,mochitest for bug 413777,mochitest for bug 413777,0.9472619891166687
+Core,488963,critical,FIXED,"""Assertion failure: cg->lexdeps.lookup(atom), at ../jsemit.cpp:2106""",assertion failure cg- lexdeps.lookup atom at ../jsemit.cpp 2106,0.9672793745994568
+Platform,200731,normal,FIXED,[Viewers] 3.4: FocusCell and focused row not in sync,viewers 3.4 focuscell and focused row not in sync,0.918664813041687
+Core,708343,normal,FIXED,Intermittent test_bug463162.xhtml | application timed out after 330 seconds with no output,intermittent test_bug463162.xhtml application timed out after 330 seconds with no output,0.9674006700515747
+CDT,207094,major,FIXED,Modules view doesn't compile against platform 3.4M2.,modules view doesn t compile against platform 3.4m2.,1.0
+Bugzilla,674416,normal,FIXED,"Custom searches in query.cgi are lost when clicking the ""Back"" button in Firefox when viewing a buglist",custom searches in query.cgi are lost when clicking the back button in firefox when viewing a buglist,0.9304855465888977
+Core,658294,critical,FIXED,"TI: Assertion failure: v.isNumber() || v.isBoolean(), at jsobj.cpp:6578",ti assertion failure v.isnumber v.isboolean at jsobj.cpp 6578,0.9918633699417114
+Platform,261724,normal,FIXED,Galileo plan update 1,galileo plan update 1,0.9632585644721985
+Firefox,782877,normal,FIXED,Intermittent browser_dbg_bfcache.js | an unexpected uncaught JS exception reported through window.onerror - TypeError: element is undefined at chrome://browser/content/debugger-controller.js:1275,intermittent browser_dbg_bfcache.js an unexpected uncaught js exception reported through window.onerror - typeerror element is undefined at chrome //browser/content/debugger-controller.js 1275,0.9420480728149414
+Core,693057,normal,FIXED,Update libvpx to v-0.9.7-p1,update libvpx to v-0.9.7-p1,0.9999999403953552
+Platform,323431,normal,FIXED,[ActivityMgmt] ConcurrentModificationException when activities added dynamically,activitymgmt concurrentmodificationexception when activities added dynamically,0.9234474301338196
+Bugzilla,476612,blocker,FIXED,Release Notes for Bugzilla 3.2.2,release notes for bugzilla 3.2.2,0.9756852984428406
+Core,737454,normal,FIXED,Intermittent test_bug518777.html | Test timed out,intermittent test_bug518777.html test timed out,0.9186218976974487
+Platform,202187,normal,FIXED,WorkbenchWindowControlContribution getWorkbenchWindow returns null,workbenchwindowcontrolcontribution getworkbenchwindow returns null,0.9522966742515564
+Firefox,583258,normal,FIXED,update shipped locales for Firefox 4 Beta 3 (fx4b3),update shipped locales for firefox 4 beta 3 fx4b3,0.9591013789176941
+Thunderbird,375111,blocker,FIXED,Version/config bumps for Tb 2.0,version/config bumps for tb 2.0,0.9279465675354004
+JDT,274411,normal,FIXED,tag projects changed since I20090421-0930 build - jdt text,tag projects changed since i20090421-0930 build - jdt text,0.9624468088150024
+Core,598227,normal,FIXED,Add support NPP_ImageDraw API for Maemo5,add support npp_imagedraw api for maemo5,1.0
+Platform,328599,normal,FIXED,cancelable parameter does not disable Wizard progress bar cancel button,cancelable parameter does not disable wizard progress bar cancel button,0.9447870254516602
+Bugzilla,506499,blocker,FIXED,Release Bugzilla 3.4,release bugzilla 3.4,0.9515088796615601
+Core,549396,critical,FIXED,JM: Crash [@ js_GetUpvar],jm crash js_getupvar,0.9119798541069031
+Firefox,806704,normal,FIXED,Port browser_bug763468.js to the new per-window PB APIs,port browser_bug763468.js to the new per-window pb apis,0.9629874229431152
+Core,784004,normal,FIXED,Don't include Layers.h everywhere Part 3,don t include layers.h everywhere part 3,0.9620749950408936
+Core,492482,normal,FIXED,[Linux] mochitest-a11y: layout/xul/base/test/test_resizer.xul needs to report success,linux mochitest-a11y layout/xul/base/test/test_resizer.xul needs to report success,0.9055804014205933
+Firefox,773422,normal,FIXED,Update pdf.js for FF16,update pdf.js for ff16,1.0
+Core,462071,critical,FIXED,"""Assertion failure: !ti->stackTypeMap.matches(ti_other->stackTypeMap)"" #2",assertion failure ti- stacktypemap.matches ti_other- stacktypemap 2,0.9650711417198181
+Platform,288394,normal,FIXED,[MPE] MultiPageEditorSite does not remove properly its KeyBindingService,mpe multipageeditorsite does not remove properly its keybindingservice,0.9649254679679871
+Core,726962,normal,FIXED,remove stray instances of PRBool that have crept into gfx,remove stray instances of prbool that have crept into gfx,0.9240121245384216
+Core,378240,normal,FIXED,"""ASSERTION: Should have found a parent before this"" with a position:fixed table and a caption",assertion should have found a parent before this with a position fixed table and a caption,0.9556668996810913
+Bugzilla,627931,blocker,FIXED,Release Notes for Bugzilla 3.2.10,release notes for bugzilla 3.2.10,0.9868476390838623
+Firefox,387766,normal,FIXED,Version/config bumps for Fx 2005,version/config bumps for fx 2005,0.9759295582771301
+Platform,177325,normal,FIXED,javadoc warning in I20070313-1051,javadoc warning in i20070313-1051,0.9351872205734253
+Platform,308488,normal,FIXED,"[Backport] Label ""Optimized algorithm used"" appears in non populated commit dialog",backport label optimized algorithm used appears in non populated commit dialog,0.9321396350860596
+Core,539122,normal,FIXED,"""ASSERTION: Shouldn't be trying to restyle non-elements directly"" with SVG",assertion shouldn t be trying to restyle non-elements directly with svg,0.9189338684082031
+Core,723496,normal,FIXED,"IonMonkey: Assertion failure: live->empty(), at ion/LinearScan.cpp:670",ionmonkey assertion failure live- empty at ion/linearscan.cpp 670,0.9460569024085999
+Platform,259110,normal,FIXED,Javadoc warnings in N200812162000,javadoc warnings in n200812162000,0.9250653982162476
+Platform,174318,normal,FIXED,Javadoc warnings in N20070215-0010,javadoc warnings in n20070215-0010,0.9481518864631653
+Platform,332640,normal,FIXED,[backport] Team > Merge operation for project contains logical model always show no changes between two branches,backport team merge operation for project contains logical model always show no changes between two branches,0.9452558159828186
+Core,765478,major,FIXED,"IonMonkey: Assertion failure: unexpected type, at ion/Lowering.cpp:862",ionmonkey assertion failure unexpected type at ion/lowering.cpp 862,0.9999998807907104
+Core,543565,normal,FIXED,"ssertion failure: fp->slots + fp->script->nfixed + js_ReconstructStackDepth(cx, fp->script, fp->regs->pc) == fp->regs->sp",ssertion failure fp- slots + fp- script- nfixed + js_reconstructstackdepth cx fp- script fp- regs- pc fp- regs- sp,0.9347217679023743
+Platform,202911,normal,FIXED,javadoc warning in N20070911-0010,javadoc warning in n20070911-0010,0.9420663118362427
+JDT,314674,normal,FIXED,Update the name 'Hierarchy View' to 'Type Hierarchy View',update the name hierarchy view to type hierarchy view,0.9382715225219727
+Core,657748,normal,FIXED,Update ANGLE to r653,update angle to r653,1.0
+Core,756247,major,FIXED,"IonMonkey: Assertion failure: [infer failure] Missing type pushed 0: float, at jsinfer.cpp:353",ionmonkey assertion failure infer failure missing type pushed 0 float at jsinfer.cpp 353,0.993270993232727
+Platform,333898,normal,FIXED,[Preferences] [accessibility] Preferences Dialog menu button needs a tooltip,preferences accessibility preferences dialog menu button needs a tooltip,0.9409971237182617
+Core,530299,minor,FIXED,Replace PR_MIN/PR_MAX with NS_MIN/NS_MAX in /xpcom,replace pr_min/pr_max with ns_min/ns_max in /xpcom,0.9679746031761169
+Thunderbird,467093,normal,FIXED,3.0 beta 1 - update shipped-locales with locales to include in the build,3.0 beta 1 - update shipped-locales with locales to include in the build,0.9707295894622803
+CDT,187408,major,FIXED,TVT33:TCT259: cs : Truncated text,tvt33 tct259 cs truncated text,0.9012523293495178
+Firefox,817472,normal,FIXED,Port browser_394759_privatebrowsing.js to the new per-window PB APIs,port browser_394759_privatebrowsing.js to the new per-window pb apis,0.9412649273872375
+Platform,329034,normal,FIXED,declare 3.7M3,declare 3.7m3,1.0
+Core,327041,normal,FIXED,Bump extension version to 0.5,bump extension version to 0.5,0.9742662906646729
+Core,520535,normal,FIXED,titlebar=no windows do not receive keyboard & mouse events,titlebar no windows do not receive keyboard mouse events,0.9005184769630432
+Core,787893,critical,FIXED,[ARMv6] crash in js::types::TypeSet::hasType,armv6 crash in js types typeset hastype,0.9478309750556946
+Core,574969,normal,FIXED,add LIR_q2d,add lir_q2d,0.9083660244941711
+JDT,328694,normal,FIXED,[call hierarchy] Clearing history should clear the status bar of the view,call hierarchy clearing history should clear the status bar of the view,0.9268859028816223
+Core,621686,normal,FIXED,Enable IDN for .ua,enable idn for .ua,0.9299605488777161
+Platform,335680,normal,FIXED,declare 3.7M5,declare 3.7m5,1.0
+JDT,311711,normal,FIXED,lease tag these jdt bundles so they include source references for the 3.6 release,lease tag these jdt bundles so they include source references for the 3.6 release,0.94832444190979
+Thunderbird,481374,normal,FIXED,"Simplify / automate the addition of the pre-release suffix string (e.g. Alpha 1, Beta 2, etc.) - Port bug 468197 to TB",simplify / automate the addition of the pre-release suffix string e.g. alpha 1 beta 2 etc. - port bug 468197 to tb,0.9095199108123779
+Core,409383,normal,FIXED,Switch systemLanguage: transient error again,switch systemlanguage transient error again,0.9176867008209229
+Core,718982,normal,FIXED,IonMonkey: Add a generic SETELEM instruction,ionmonkey add a generic setelem instruction,0.9048535227775574
+Core,408429,trivial,FIXED,Update libpng to version 1.2.24,update libpng to version 1.2.24,0.9621732234954834
+Core,584579,normal,FIXED,JM: mochitest-plain crash on dom/tests/mochitest/ajax/prototype/test_Prototype.html,jm mochitest-plain crash on dom/tests/mochitest/ajax/prototype/test_prototype.html,0.9333399534225464
+Core,530305,minor,FIXED,Replace PR_MIN/PR_MAX with NS_MIN/NS_MAX in /gfx,replace pr_min/pr_max with ns_min/ns_max in /gfx,0.9894018173217773
+CDT,252108,normal,FIXED,Name resolution problem with namespace,name resolution problem with namespace,0.9075070023536682
+Core,328499,normal,FIXED,Mingw build error in gfxWindowsPlatform.h,mingw build error in gfxwindowsplatform.h,0.9560524821281433
+Core,641905,normal,FIXED,Use native rendering for indeterminate progress bar (Win),use native rendering for indeterminate progress bar win,0.9102576375007629
+Core,413253,normal,FIXED,build with -fno-strict-aliasing on GCC platforms,build with -fno-strict-aliasing on gcc platforms,0.9540939331054688
+Firefox,806699,normal,FIXED,Port browser_privatebrowsing_ui.js to the new per-window PB APIs,port browser_privatebrowsing_ui.js to the new per-window pb apis,0.9797521233558655
+Platform,333577,normal,FIXED,"[Win32] WindowXP command ""Close Group"" can not close all the Eclipse window that in one group",win32 windowxp command close group can not close all the eclipse window that in one group,0.9656383395195007
+Platform,327425,normal,FIXED,[backport] New option to not use capped algorithm misses documentation,backport new option to not use capped algorithm misses documentation,0.9111546277999878
+CDT,185828,critical,FIXED,Stack overflow in indexer,stack overflow in indexer,0.9356375932693481
+Bugzilla,463527,blocker,FIXED,Release Notes for 2.22.6,release notes for 2.22.6,1.0
+Core,488816,critical,FIXED,TM: Crash [@ 0x000fdf5b],tm crash 0x000fdf5b,0.943232536315918
+Core,672951,major,FIXED,[OS/2] build break due to mismatch in function - follow-up to bug668758,os/2 build break due to mismatch in function - follow-up to bug668758,0.9809085130691528
+Bugzilla,627923,blocker,FIXED,Release Notes for Bugzilla 3.6.4,release notes for bugzilla 3.6.4,0.9999998211860657
+Platform,282874,normal,FIXED,[ActivityMgmt] NullpointerException during saving state of view registry with disabled xp based activities,activitymgmt nullpointerexception during saving state of view registry with disabled xp based activities,0.9648818969726562
+Core,738404,normal,FIXED,Makefile.in update to use 680246 - file batch #1,makefile.in update to use 680246 - file batch 1,0.983302652835846
+Core,634086,normal,FIXED,Use native rendering for indeterminate progress bar (GTK),use native rendering for indeterminate progress bar gtk,0.9162766337394714
+Core,772901,major,FIXED,"IonMonkey: Assertion failure: false (Bad SSA value), at ../jsanalyze.h:1069",ionmonkey assertion failure false bad ssa value at ../jsanalyze.h 1069,0.9009266495704651
+Platform,141037,normal,FIXED,about.html needs to be updated in org.eclipse.core.commands,about.html needs to be updated in org.eclipse.core.commands,0.9037691354751587
+JDT,219231,normal,FIXED,Compiler warnings in N20080216-0010,compiler warnings in n20080216-0010,0.9312868118286133
+Core,396828,normal,FIXED,Assertion failure: (cx)->requestDepth || (cx)->thread == (cx)->runtime->gcThread,assertion failure cx - requestdepth cx - thread cx - runtime- gcthread,0.9073097109794617
+Platform,172001,normal,FIXED,Javadoc warnings in N20070129-0010,javadoc warnings in n20070129-0010,0.9739833474159241
+Core,643113,critical,FIXED,TI: Crash (Null Pointer) @ JSString::isAtomized(),ti crash null pointer jsstring isatomized,0.9134125709533691
+Bugzilla,727896,blocker,FIXED,"Security advisory for Bugzilla 4.2rc3, 4.0.5, 3.6.9 and 3.4.15",security advisory for bugzilla 4.2rc3 4.0.5 3.6.9 and 3.4.15,0.9285901188850403
+Platform,166613,normal,FIXED,"3.2 digest zip - Digest could not be parsed - ""404 Not Found""",3.2 digest zip - digest could not be parsed - 404 not found,0.9632794260978699
+Bugzilla,566198,blocker,FIXED,Release Notes for Bugzilla 3.4.7.,release notes for bugzilla 3.4.7.,0.9853334426879883
+Firefox,483382,normal,FIXED,browser_420786.js fails intermittently,browser_420786.js fails intermittently,0.9640039801597595
+Bugzilla,432331,blocker,FIXED,Release Notes for Bugzilla 3.2,release notes for bugzilla 3.2,0.96376633644104
+Core,517041,normal,FIXED,Regression on shell test case regress-457521.js,regression on shell test case regress-457521.js,0.9274447560310364
+Bugzilla,379774,blocker,FIXED,"Update ""Changes"" Page for Bugzilla 3.0",update changes page for bugzilla 3.0,0.9885008335113525
+JDT,262209,normal,FIXED,[1.5][compiler]Incorrect ambiguous method calls,1.5 compiler incorrect ambiguous method calls,0.9017127752304077
+CDT,257396,normal,FIXED,"An internal error occurred during: ""Notifying selection listeners"".",an internal error occurred during notifying selection listeners .,0.9391559362411499
+Core,542071,normal,FIXED,Analyze implementation of closures in V8,analyze implementation of closures in v8,0.914391815662384
+Thunderbird,750691,normal,FIXED,Permanent orange: TEST-UNEXPECTED-FAIL | test-cloudfile-backend-yousendit.js | test-cloudfile-backend-yousendit.js::teardownTest,permanent orange test-unexpected-fail test-cloudfile-backend-yousendit.js test-cloudfile-backend-yousendit.js teardowntest,0.9036682844161987
+CDT,194424,normal,FIXED,Feature descriptions not quite right,feature descriptions not quite right,0.9037250280380249
+Platform,213607,normal,FIXED,[Viewers] [3.4] ColumnViewer incorrectly handles right mouse click.,viewers 3.4 columnviewer incorrectly handles right mouse click.,0.9269739985466003
+Platform,191468,major,FIXED,Cell editors don't activate in TableViewer without SWT.FULL_SELECTION and they used to in 3.1.2,cell editors don t activate in tableviewer without swt.full_selection and they used to in 3.1.2,0.9237836003303528
+Firefox,411764,normal,FIXED,All-in-One Gestures addon not available/working for Firefox 3,all-in-one gestures addon not available/working for firefox 3,0.9069058299064636
+Core,563448,normal,FIXED,sync NPAPI headers with npapi-headers revision 10,sync npapi headers with npapi-headers revision 10,0.9547396898269653
+Bugzilla,494037,blocker,FIXED,Release Notes for Bugzilla 3.4rc1,release notes for bugzilla 3.4rc1,0.9618407487869263
+Core,575374,normal,FIXED,Optimize ::GetInnerHTML (part 2),optimize getinnerhtml part 2,0.9520545601844788
+Core,754150,critical,FIXED,"Assertion failure: IsMarkedOrAllocated(static_cast<Cell *>(thing)), at js/src/jsgc.cpp:4399",assertion failure ismarkedorallocated static_cast cell thing at js/src/jsgc.cpp 4399,0.9398664832115173
+Thunderbird,495939,normal,FIXED,New Folder dialog don't use a verb for the confirm button,new folder dialog don t use a verb for the confirm button,0.9000483155250549
+Core,723809,normal,FIXED,TestTArray.cpp:886:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare],testtarray.cpp 886 28 warning comparison between signed and unsigned integer expressions -wsign-compare,0.9367358684539795
+JDT,214002,normal,FIXED,NPE in MethodBinding.getParameterAnnotations(),npe in methodbinding.getparameterannotations,0.9218441247940063
+Firefox,389218,blocker,FIXED,Version/config bumps for Fx 2006,version/config bumps for fx 2006,0.9513457417488098
+Core,701957,normal,FIXED,IonMonkey: Compile JSOP_EQ,ionmonkey compile jsop_eq,0.9379250407218933
+Platform,332639,normal,FIXED,[backport] There are no changes for models  showing in the Synchronize view with Team > Merge operation.,backport there are no changes for models showing in the synchronize view with team merge operation.,0.9406563639640808
+Bugzilla,349423,blocker,FIXED,Release Notes for Bugzilla 3.0,release notes for bugzilla 3.0,0.9565424919128418
+Thunderbird,515601,normal,FIXED,Update shipped-locales with locales to include in the build,update shipped-locales with locales to include in the build,0.9271149039268494
+Core,807465,normal,FIXED,Less QIs in nsXULPopupManager::UpdateMenuItems,less qis in nsxulpopupmanager updatemenuitems,0.9030922055244446
+Core,651078,normal,FIXED,Make content/html/content/test/test_bug613113.html non flaky,make content/html/content/test/test_bug613113.html non flaky,0.9281113743782043
+Platform,207601,trivial,FIXED,[Commands] NullPointerException in HandlerActivation.toString() when tracing enabled,commands nullpointerexception in handleractivation.tostring when tracing enabled,0.9343318343162537
+Bugzilla,410717,blocker,FIXED,Release Bugzilla 3.0.3,release bugzilla 3.0.3,0.9065210223197937
+Platform,135119,normal,FIXED,[Memory View] Reset does not position the base address to the top of the view,memory view reset does not position the base address to the top of the view,0.9172272682189941
+Core,419662,minor,FIXED,function statement and destructuring parameter name clash still favours the parameter,function statement and destructuring parameter name clash still favours the parameter,0.9275556206703186
+Firefox,662117,normal,FIXED,Intermittent browser_tabview_bug598375.js | Test timed out,intermittent browser_tabview_bug598375.js test timed out,0.9160169959068298
+CDT,206039,normal,FIXED,[Common Navigator] Copy/Paste/... actions not visible for mixed IResource/ICElement (regression),common navigator copy/paste/... actions not visible for mixed iresource/icelement regression,0.947526752948761
+Firefox,369471,normal,FIXED,Ship pending locales for Firefox 2.0.0.3,ship pending locales for firefox 2.0.0.3,0.9643915891647339
+Firefox,411820,normal,FIXED,FoxyTunes addon not available/working for Firefox 3,foxytunes addon not available/working for firefox 3,0.96603924036026
+Core,565033,normal,FIXED,Add .lu to IDN whitelist,add .lu to idn whitelist,0.9290095567703247
+Core,422792,normal,FIXED,reduce narrow windows API calls in widget,reduce narrow windows api calls in widget,0.9016996026039124
+Core,462282,critical,FIXED,"TM: ""Assertion failure: !ti->stackTypeMap.matches(ti_other->stackTypeMap)"" #3",tm assertion failure ti- stacktypemap.matches ti_other- stacktypemap 3,0.9901648759841919
+Platform,269378,normal,FIXED,Compiler warnings in N20090318-2000,compiler warnings in n20090318-2000,0.9708760976791382
+Platform,307280,normal,FIXED,Provide a way to disable capping in the comparison algorithm,provide a way to disable capping in the comparison algorithm,0.9156750440597534
+Core,606923,normal,FIXED,Update .tz entry in PSL,update .tz entry in psl,0.9079091548919678
+Thunderbird,457709,normal,FIXED,tracking bug for build and release of Thunderbird 3.0 Beta 1,tracking bug for build and release of thunderbird 3.0 beta 1,0.9605289697647095
+CDT,203958,trivial,FIXED,DVT33:TCT828: el - CDT - TOC navigation link differs from topic title of target page 3,dvt33 tct828 el - cdt - toc navigation link differs from topic title of target page 3,0.9780899882316589
+Firefox,324449,critical,FIXED,Error: uncaught exception: 2147500037,error uncaught exception 2147500037,1.0
+Core,354378,normal,FIXED,Update NSS used by PSM to NSS_3_11_20060926_TAG,update nss used by psm to nss_3_11_20060926_tag,1.0
+Platform,262558,normal,FIXED,Compiler warning in I20090126-0800,compiler warning in i20090126-0800,0.946129560470581
+Core,703917,normal,FIXED,Upgrade ANGLE to r885,upgrade angle to r885,0.9999998807907104
+Platform,185753,normal,FIXED,update release notes for 3.3,update release notes for 3.3,0.9513875842094421
+Core,719758,critical,FIXED,"Assertion failure: [infer failure] Missing type pushed 0: string, at jsinfer.cpp:352",assertion failure infer failure missing type pushed 0 string at jsinfer.cpp 352,0.9915772080421448
+Core,679864,normal,FIXED,Upgrade WebGL conformance test suite to r15318,upgrade webgl conformance test suite to r15318,1.0
+Core,530415,minor,FIXED,Replace PR_MIN/PR_MAX with NS_MIN/NS_MAX in /extensions/spellcheck/,replace pr_min/pr_max with ns_min/ns_max in /extensions/spellcheck/,0.9005008339881897
+Firefox,806681,normal,FIXED,Port browser_privatebrowsing_certexceptionsui.js to the new per-window PB APIs,port browser_privatebrowsing_certexceptionsui.js to the new per-window pb apis,0.9206762313842773
+Core,610081,normal,FIXED,Intermittent failure in layout/reftests/svg/as-image/img-height-meet-1.html,intermittent failure in layout/reftests/svg/as-image/img-height-meet-1.html,0.9359580278396606
+Platform,335891,normal,FIXED,Resizable Tracker leaks Cursor on Mac OSX,resizable tracker leaks cursor on mac osx,0.9016937017440796
+JDT,289263,normal,FIXED,javadoc warning in N200909102000,javadoc warning in n200909102000,0.9015325903892517
+Core,325147,normal,FIXED,"New version of JEP (0.9.5+c), please land on trunk and branch",new version of jep 0.9.5+c please land on trunk and branch,0.978868305683136
+Core,659438,normal,FIXED,"TI+JM: Assertion failure: copied == 0, at ../methodjit/FrameEntry.h:180",ti+jm assertion failure copied 0 at ../methodjit/frameentry.h 180,0.928239107131958
+Core,667507,critical,FIXED,"TM/JM: ""Assertion failure: shape->previous() == obj->lastProperty(),"" with gc",tm/jm assertion failure shape- previous obj- lastproperty with gc,0.97254878282547
+Platform,328600,normal,FIXED,update to latest Orbit S build for 3.7M3,update to latest orbit s build for 3.7m3,0.902600884437561
+Core,472599,critical,FIXED,"TM: ""Assertion failure: JSVAL_IS_INT(STOBJ_GET_SLOT(callee_obj, JSSLOT_PRIVATE))"" with __proto__, call, toString",tm assertion failure jsval_is_int stobj_get_slot callee_obj jsslot_private with __proto__ call tostring,0.9570950865745544
+Core,772069,normal,FIXED,Update .uy entry in PSL,update .uy entry in psl,0.9349192380905151
+Core,602390,normal,FIXED,nanojit: make Register a non-numeric type on SH4,nanojit make register a non-numeric type on sh4,0.9496409893035889
+Core,399590,normal,FIXED,Update Mozilla trunk to use NSS tag {{next-after-alpha-2}},update mozilla trunk to use nss tag next-after-alpha-2,0.904198944568634
+Core,662962,normal,FIXED,Silence the clang warnings issued because of alignment requirements increase when compiling jsscript.h,silence the clang warnings issued because of alignment requirements increase when compiling jsscript.h,0.9326803088188171
+Bugzilla,543342,critical,FIXED,Release Notes for Bugzilla 3.4.5,release notes for bugzilla 3.4.5,0.9869226217269897
+Bugzilla,549482,blocker,FIXED,Release Notes for Bugzilla 3.4.6,release notes for bugzilla 3.4.6,0.9874060153961182
+Core,416907,critical,FIXED,Crash [@ nsHTMLFramesetFrame::Reflow] with frameset in mroot,crash nshtmlframesetframe reflow with frameset in mroot,0.9663063883781433
+Core,703927,normal,FIXED,Upgrade WebGL conformance test suite to r16167,upgrade webgl conformance test suite to r16167,0.9890727996826172
+Core,571106,critical,FIXED,nsTreeSelection Dangling Pointer Remote Code Execution Vulnerability (ZDI-CAN-755),nstreeselection dangling pointer remote code execution vulnerability zdi-can-755,0.9021121859550476
+Bugzilla,727893,blocker,FIXED,Release notes for Bugzilla 4.0.5,release notes for bugzilla 4.0.5,0.9783660173416138
+Core,653309,critical,FIXED,"""Assertion failure: thing->compartment() == gcmarker->context->runtime->gcCurrentCompartment""",assertion failure thing- compartment gcmarker- context- runtime- gccurrentcompartment,0.9799737930297852
+Firefox,751141,normal,FIXED,Intermittent browser_dbg_scripts-searching-01.js | Test timed out,intermittent browser_dbg_scripts-searching-01.js test timed out,0.931795597076416
+JDT,303945,normal,FIXED,Fup of bug 295551,fup of bug 295551,0.9128877520561218
+Core,541078,normal,FIXED,[HTML5] docshell/test/navigation/test_bug430624.html fails,html5 docshell/test/navigation/test_bug430624.html fails,0.9272170662879944
+Platform,314479,normal,FIXED,update to 3.6RC3 Orbit build,update to 3.6rc3 orbit build,0.9278780221939087
+Core,812794,normal,FIXED,Follow-ups for Bug 722979 - nsStrictTransportSecurityService uses the global Private Browsing service to decide where to set permissions,follow-ups for bug 722979 - nsstricttransportsecurityservice uses the global private browsing service to decide where to set permissions,0.9132511615753174
+Core,819611,critical,FIXED,IonMonkey: Differential Testing: Getting different output w/without --ion-eager with Object.freeze,ionmonkey differential testing getting different output w/without --ion-eager with object.freeze,0.9081679582595825
+Bugzilla,713348,blocker,FIXED,"Security advisory for Bugzilla 4.2rc1, 4.0.3, 3.6.7 and 3.4.13",security advisory for bugzilla 4.2rc1 4.0.3 3.6.7 and 3.4.13,0.9120173454284668
+Core,757949,normal,FIXED,GCC 4.6.3 build warning: nsXULDocument.cpp:2384:40: warning: comparison of unsigned expression >= 0 is always true [-Wtype-limits],gcc 4.6.3 build warning nsxuldocument.cpp 2384 40 warning comparison of unsigned expression 0 is always true -wtype-limits,0.9010663628578186
+Core,530392,minor,FIXED,Replace PR_MIN/PR_MAX with NS_MIN/NS_MAX in /xpfe/,replace pr_min/pr_max with ns_min/ns_max in /xpfe/,0.9876798987388611
+JDT,251758,normal,FIXED,[ltk] Undoing a project delete re-assigns markers from the file to the project,ltk undoing a project delete re-assigns markers from the file to the project,0.9658268094062805
+Platform,307587,major,FIXED,NatureManager is NOT threadsafe causing incorrect responses to isNatureEnabled() (and others),naturemanager is not threadsafe causing incorrect responses to isnatureenabled and others,0.9420017600059509
+Core,557529,normal,FIXED,Intermittent timeout in test_bug495319.html,intermittent timeout in test_bug495319.html,0.9859914779663086
+Core,777946,normal,FIXED,"Zooming windowless plugin frame can cause it to ""bleed"" outside bounds",zooming windowless plugin frame can cause it to bleed outside bounds,0.9074272513389587
+Core,386585,major,FIXED,Update libpng to version 1.2.18,update libpng to version 1.2.18,0.9620514512062073
+Platform,330122,major,FIXED,[3.6 maint] HTMLTransfer broken from Firefox --> SWT [Carbon],3.6 maint htmltransfer broken from firefox -- swt carbon,0.9135546684265137
+Core,551838,minor,FIXED,Adding empty href attribute doesn't add link styling,adding empty href attribute doesn t add link styling,0.9043110609054565
+Core,623450,normal,FIXED,Permaorange - layout/reftests/bugs/579323-1.html on WinXP,permaorange - layout/reftests/bugs/579323-1.html on winxp,0.9041913747787476
+CDT,294730,normal,FIXED,[C++0x] Add support for c++0x features implemented in gcc 4.3,c++0x add support for c++0x features implemented in gcc 4.3,0.9933241009712219
+Core,530411,minor,FIXED,Replace PR_MIN/PR_MAX with NS_MIN/NS_MAX in /extensions/java/,replace pr_min/pr_max with ns_min/ns_max in /extensions/java/,0.9347245097160339
+Core,650673,critical,FIXED,"TI: Assertion failure: addr % sizeof(FreeCell) == 0, at ../jsgc.h:391",ti assertion failure addr sizeof freecell 0 at ../jsgc.h 391,0.9776349067687988
+Platform,296467,normal,FIXED,[Widgets] FileDialog can not open a directory correctly on linux gtk swt,widgets filedialog can not open a directory correctly on linux gtk swt,0.9339661002159119
+Core,387955,critical,FIXED,Crash [@ JS_CallTracer],crash js_calltracer,0.9201645851135254
+Core,509893,normal,FIXED,NJ merge: Convert NInsList to SeqBuilder<> and Allocator,nj merge convert ninslist to seqbuilder and allocator,0.9302754998207092
+Core,483981,normal,FIXED,Mochitest test_bug448993.html runs fine but needs to check/report success,mochitest test_bug448993.html runs fine but needs to check/report success,0.9742411375045776
+Firefox,627096,normal,FIXED,[Meta] Panorama Beta11,meta panorama beta11,0.9850468039512634
+Core,564608,normal,FIXED,Update Hunspell to 1.2.11,update hunspell to 1.2.11,0.9856584072113037
+Firefox,739636,normal,FIXED,Install web app on host OS - Mac,install web app on host os - mac,0.9192234873771667
+Core,578272,normal,FIXED,TM: remove Algol-like display optimization,tm remove algol-like display optimization,0.9694918990135193
+Platform,142816,normal,FIXED,No F1 help for Project Explorer,no f1 help for project explorer,0.9312634468078613
+Platform,144549,normal,FIXED,TVT3.2:TCT793: KO: Extra mnemonic,tvt3.2 tct793 ko extra mnemonic,0.9423363208770752
+Core,679493,normal,FIXED,IonMonkey: implement JSOP_NEG,ionmonkey implement jsop_neg,0.9127025604248047

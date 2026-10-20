@@ -1,0 +1,37 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files and logs
+*.log
+temp/
+tmp/
+
+# Large generated files
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Generated datasets
+processed_bugs.csv
+train.csv
+test.csv
+
+# Node dependencies
+node_modules/
