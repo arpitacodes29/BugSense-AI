@@ -182,7 +182,8 @@ def analyze_javascript(code):
         import os
 
         eslint_path = (
-            BASE_DIR / "node_modules" / ".bin" / "eslint.cmd"
+           BASE_DIR / "node_modules" / ".bin" /
+           ("eslint.cmd" if os.name == "nt" else "eslint")
         )
 
         if not eslint_path.exists():
