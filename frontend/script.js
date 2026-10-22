@@ -8,7 +8,7 @@
 const API_URL = window.location.hostname === "localhost" ||
                 window.location.hostname === "127.0.0.1"
   ? "http://127.0.0.1:5000/api/analyze"
-  : "https://bugsense-ai-i1x9.onrender.com/";
+  : "https://bugsense-ai-i1x9.onrender.com/api/analyze";
 const STORAGE_KEY = "bugsense_history";
 const MAX_INPUT_LENGTH = 20000;
 const MAX_FILE_SIZE = 100000;
