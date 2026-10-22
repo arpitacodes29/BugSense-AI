@@ -179,6 +179,8 @@ def analyze_javascript(code):
         path = Path(directory) / "analysis.jsx"
         path.write_text(code, encoding="utf-8")
 
+        import os
+
         eslint_path = (
             BASE_DIR / "node_modules" / ".bin" / "eslint.cmd"
         )
